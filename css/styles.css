@@ -25,6 +25,21 @@
   }
 }
 
+
+@media screen and (max-width: 428px) {
+.nav-list {display: none;}
+.spisok-kontaktov {display: none;}
+}
+
+.main-menu {display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+.borders {padding-top: 40.5px;
+          padding-bottom: 38.5px;}
+
+
 /*
 :root {
     --main-font-family: 'Roboto' , sans-serif;
