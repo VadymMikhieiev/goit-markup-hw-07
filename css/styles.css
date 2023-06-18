@@ -35,10 +35,15 @@
 align-items: center;
 justify-content: space-between;}
 
-
+        
 .borders {padding-top: 40.5px;
           padding-bottom: 38.5px;}
 
+/*не убирает бекграуд в иконке*/
+
+.mobile-menu-open {border: none;
+    background-color: transparent;
+    padding: 0;}
 
 /*
 :root {
